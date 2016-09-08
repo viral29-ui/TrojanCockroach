@@ -3,11 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    
-    <title>Trojan Cockroach by Minhas Kamal</title>
-    <meta name="description" content="An Undetectable Trojan Spyware">
-    
-    <link rel="icon" type="image/ico" href="https://assets-cdn.github.com/images/icons/emoji/unicode/1f608.png" />
+    <title>Trojan Cockroach by MinhasKamal</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
@@ -32,29 +28,37 @@
         </ul>
       </header>
       <section>
-        <p><a href="https://MinhasKamal.github.io/TrojanCockroach">This program</a> is an undetectable <strong>Trojan Virus</strong> that steals data (ID, password; every key stroke) from PC and emails it back to the author. It spreads among PCs through USB drives.</p>
+        <p><a href="https://MinhasKamal.github.io/TrojanCockroach">This program</a> is a <strong>Trojan Virus</strong> that steals data (ID, password; every key stroke) from PC (Windows XP or later) and emails it back to the author. It spreads among PCs through USB drives. It is undetectable by any antivirus software.</p>
 
 <h3>
 <a id="setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup</h3>
 
 <ol>
-<li>
-<p>Preparation</p>
+<li>Preparation
 
 <ol>
-<li>Change <strong>---()</strong> and <strong>---()</strong> method of <strong>TrojanCockroach.cpp</strong> according to your wish.</li>
+<li>Change <strong>getRandomName()</strong> and <strong>sendData()</strong> method of <strong>TrojanCockroach.cpp</strong> according to your wish.</li>
 <li>Compile <strong>TrojanCockroach.cpp</strong> &amp; <strong>Infect.cpp</strong> (do not rename them).</li>
 <li>Place <strong>TrojanCockroach.exe</strong>, <strong>Infect.exe</strong>, <strong>---</strong>, <strong>---</strong> &amp; <strong>---</strong> in the same folder.</li>
 <li>Now run <strong>TrojanCockroach.exe</strong>.</li>
 <li>Then insert a pendrive in your PC (see the magic!).</li>
 </ol>
 </li>
+</ol>
+
+<p>Here, I have changed all the file names (you do not wish to keep these- 'TrojanCockroach', 'Infect'; right? the code will need to be changed a little too) and this is how they look-</p>
+
+<div align="center">
+  <img src="https://cloud.githubusercontent.com/assets/5456665/18255358/cbaf8484-73ca-11e6-99a0-a5a52f65f8a0.PNG" alt="Key-Logger">
+</div>
+
+<ol>
 <li>
 <p>Attack</p>
 
 <ol>
 <li>Now, insert the USB-Drive in the subject's PC (Yes, you have to start the spreading process from somewhere!)</li>
-<li>Run the shortcut and the spyware will be injected.</li>
+<li>Run the shortcut and the spyware will be injected. Now (after a restart) everytime any USB-Drive is inserted in the affected PC, the virus will copy itself in that, and the circle will start again!</li>
 </ol>
 </li>
 <li>
@@ -62,15 +66,15 @@
 
 <ol>
 <li>You need to wait several days (depending on the number of power on/off of the PC), before getting any data.</li>
-<li>After getting the email copy the full message to a text file. As the the message has come through email certain characters are converted. To resolve that ---.</li>
+<li>After getting the email copy the full message to a text file. As the the message has come through email certain characters are converted. To resolve that --- --- ---.</li>
 <li>Now, run <strong>DecodeMessage.exe</strong> for decoding the message as plain text. In this phase, you can look for specific patterns in the text, and thus get rid of most of the useless parts (like- mouse click, or same key-group press as happens during gaming).</li>
 </ol>
 </li>
 </ol>
 
-<p>You can get a more clear understanding of the project from its pre-project- <strong><a href="https://github.com/MinhasKamal/KeyLogger">KeyLogger</a></strong>.</p>
+<p>You can get a more clear understanding of the project from its pre-project- <strong><a href="https://github.com/MinhasKamal/SmartKeyLogger">SmartKeyLogger</a></strong>.</p>
 
-<p><strong>Note:</strong> I do not want newbies to abuse my project, so I am <strong>not revealing all the secrets</strong>. I also have made some nonsense changes in the code, so that no one can run it effectively without getting his hands dirty.</p>
+<p><strong>Note:</strong> I do not want newbies to abuse my project, so I am <strong>not revealing all the secrets</strong>. The 'README' is not easy to understand either. I have also made some nonsense changes in the code, so that no one can run it effectively without getting his hands dirty.</p>
 
 <p>I will not also take any responsibility of someone else's ill act with my program. But I do believe that a real learner will learn a lot from this.</p>
 
@@ -80,7 +84,7 @@
 <p><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"></a><br><a href="https://github.com/MinhasKamal/TrojanCockroach">Trojan Cockroach</a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>
       </section>
       <footer>
-        <p><a href="https://github.com/MinhasKamal">Minhas Kamal</a> maintains <a href="https://github.com/MinhasKamal/TrojanCockroach">Trojan Cockroach</a> (last updated: 19-Aug-2016)</p>
+        <p>This project is maintained by <a href="https://github.com/MinhasKamal">MinhasKamal</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
