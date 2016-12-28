@@ -1,0 +1,8 @@
+title: Trojan Cockroach
+description: An Undetectable Trojan Spyware
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
